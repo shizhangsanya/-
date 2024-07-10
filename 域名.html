@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>域名申请主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; /* 允许导航栏在必要时换行 */
+        }
+        .navbar .brand {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px; /* 添加一些间隔 */
+        }
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px; /* 添加圆角 */
+            margin: 0 5px; /* 添加一些间隔 */
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .page {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column; /* 在小屏幕上改为竖排放置 */
+            }
+            .navbar .brand {
+                margin-bottom: 10px; /* 添加一些间隔 */
+            }
+            .navbar a {
+                margin: 5px 0; /* 调整间隔 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">7n.fit</div>
+        <a href="#introduction">关于域名</a>
+        <a href="#application">申请方法</a>
+        <a href="#other">其他信息</a>
+    </div>
+
+    <div class="content">
+        <div class="page" id="introduction">
+            <h2>关于域名</h2>
+            <p>此域名主要是为一些无法负担域名注册时所需要费用的个人/非营利性组织提供免费子域名服务</p>
+            <p>欢迎使用7n.fit域名!!我为您对我们的认可表示由衷的感激</p>
+        </div>
+
+        <div class="page" id="application">
+            <h2>申请方法</h2>
+            <p>为了筛选一小部分的使用者，我们采取邮箱申请域名的方式，每个邮箱仅申请两个域名!!</p>
+            <p>域名支持解析记录值类型:A记录值;SRV记录值;CNAME记录值</p>
+            <p>可选线路:中国电信，中国移动，中国联通，以及境外线路</p>
+            <p>申请模板1:我想申请www.7n.fit作为我的域名，记录值类型为A，记录值为127.0.0.1，线路为中国电信，我将它用于7n.fit官网的使用</p>
+            <p>申请模板2:我想申请s.7n.fit作为我的域名，记录值类型为SRV，主机记录值为_minecraft._tcp.mc，记录值为5 0 25565 mcy.7n.fit 线路为中国电信;域名为mcy.7n.fit，记录值类型为A，记录值为127.0.0.1，线路为中国电信!!用处:作为我的世界服务器域名使用</p>
+            <p>申请标题:FREE-7n.fit</p>
+            <p>申请邮箱:shizhangsanya@qq.com</p>
+        </div>
+
+        <div class="page" id="other">
+            <h2>其他相关</h2>
+            <p>本域名不得用于任何形式违法犯罪活动，发现立即停止解析!!本域名不支持通配符解析!本域名不支持DNS托管至其他DNS平台!!!</p>
+            <p>交流群:615285173</p>
+            <p>赞助链接:https://afdian.net/a/mengzx(无偿赞助)</p>
+            <p>域名注册者对域名有绝对的解释权!!域名注册者保留对域名的所有解释权!!</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>感谢由cloudflare提供的托管服务</p>
+    </div>
+</body>
+</html>
